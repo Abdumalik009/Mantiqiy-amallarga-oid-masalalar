@@ -9,12 +9,10 @@ public class Boolean2 {
         System.out.print("Sonni kiriting: ");
         int son = scanner.nextInt();
 
-        if (son < 0) {
-            System.out.println("A soni manfiy.");
-        } else if (son == 0) {
-            System.out.println("A soni nolga teng.");
+        if (son % 2 != 0) {
+            System.out.println("A soni toq");
         } else {
-            System.out.println("A soni musbat.");
+            System.out.println("A soni juft");
         }
     }
 }
