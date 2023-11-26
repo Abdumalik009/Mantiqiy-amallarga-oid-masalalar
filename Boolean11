@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Boolean11 {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Sonni kiriting: ");
+        int A = scanner.nextInt();
+
+        System.out.print("Sonni kiriting: ");
+        int B = scanner.nextInt();
+
+
+        if ( A%2 != 0 && B%2 != 0) {
+            System.out.println(" A va B toq sonlar ");
+        } else if ( A%2 == 0 && B%2 == 0) {
+            System.out.println(" A va B juft sonlar ");
+        }else {
+            System.out.println(" A va B sonlarining  bittasi toq");
+        }
+    }
+}
