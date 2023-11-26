@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Boolean7 {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Sonni kiriting: ");
+        int A = scanner.nextInt();
+
+        System.out.print("Sonni kiriting: ");
+        int B = scanner.nextInt();
+
+        System.out.print("Sonni kiriting: ");
+        int C = scanner.nextInt();
+
+        if (B >= A && A >= C) {
+            System.out.println("True");
+        } else {
+            System.out.println("False");
+        }
+    }
+}
