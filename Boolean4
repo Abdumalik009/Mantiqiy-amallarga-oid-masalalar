@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Boolean4 {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Sonni kiriting: ");
+        int A = scanner.nextInt();
+
+        System.out.print("Sonni kiriting: ");
+        int B = scanner.nextInt();
+
+        if (A > 2 && B<=3) {
+            System.out.println("True");
+        } else {
+            System.out.println("False");
+        }
+    }
+}
