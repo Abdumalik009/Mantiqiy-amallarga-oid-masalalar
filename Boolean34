@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Boolean34 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("x ni kiriting (1-8 oraliqda): ");
+        int x = scanner.nextInt();
+
+        System.out.print("y ni kiriting (1-8 oraliqda): ");
+        int y = scanner.nextInt();
+
+        int y1 = 8 - y + 1;
+        int x1 =  x - 1;
+
+        if ((x >= 1 && x <= 8) && (y >= 1 && y <= 8)) {
+            System.out.println("Berilgan (" + x + "," + y + ") maydon " + x1 + y1 + " oq");
+        } else {
+            System.out.println("Noto'g'ri koordinatalar kiritildi.");
+        }
+    }
+}
