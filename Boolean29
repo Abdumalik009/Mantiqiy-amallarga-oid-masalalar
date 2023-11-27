@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Boolean29 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+     
+        System.out.print("Birinchi nuqta x ni kiriting: ");
+        int x = scanner.nextInt();
+        System.out.print("Birinchi nuqta y ni kiriting: ");
+        int y = scanner.nextInt();
+
+        System.out.print("Ikkinchi nuqta x1 ni kiriting: ");
+        int x1 = scanner.nextInt();
+        System.out.print("Ikkinchi nuqta y1 ni kiriting: ");
+        int y1 = scanner.nextInt();
+
+        System.out.print("Uchinchi nuqta x2 ni kiriting: ");
+        int x2 = scanner.nextInt();
+        System.out.print("Uchinchi nuqta y2 ni kiriting: ");
+        int y2 = scanner.nextInt();
+
+
+        if ((x == x1 && y == y1) || (x == x2 && y == y2) || (x1 == x2 && y1 == y2)) {
+            System.out.println("Koordinatalari (" + x + "," + y + ") bo'lgan nuqta, chap yuqori cho'qqisi (" + x1 + "," + y1 + ") koordinatalarga ega bo'lgan va o'ng pastikisi (" + x2 + "," + y2 + ") bo'lgan, tomonlari esa koordinata o'qlariga parallel bo'lgan to'rtburchak ichida yotadi");
+        } else {
+            System.out.println("Shart bajarilmadi");
+        }
+    }
+}
