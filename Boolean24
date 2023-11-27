@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Boolean24 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Birinchi sonni kriting (A): ");
+        double A = input.nextDouble();
+
+        System.out.print("Ikkinchi sonni kriting (B): ");
+        double B = input.nextDouble();
+
+        System.out.print("Uchinchi sonni kriting (C): ");
+        double C = input.nextDouble();
+
+        if (A != 0 && B!=0 && C!=0) {
+            double D = (B * B) - (4 * A * C);
+            double X1 = (-B + Math.sqrt(D)) / (2 * A);
+            double X2 = (-B - Math.sqrt(D)) / (2 * A);
+            System.out.println("X1 shunga teng: "+ X1 );
+            System.out.println("X2 shunga teng: "+ X2 );
+        }else {
+            System.out.println("Sonlarni qaysidir biri nolga teng");
+        }
+        
+    }
+}
