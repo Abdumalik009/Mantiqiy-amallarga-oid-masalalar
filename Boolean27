@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Boolean27 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("x ni kiriting: ");
+        int x = scanner.nextInt();
+
+        System.out.print("y ni kiriting: ");
+        int y = scanner.nextInt();
+        
+        if ((x >= 0 && y > 0 && y <= x) || (x < 0 && y > 0 && y >= x)) {
+            System.out.println("Koordinatalari (" + x + "," + y + ") bo'lgan nuqta, koordinata choragining ikkinchisida yoki uchunchisida yotadi");
+        } else {
+            System.out.println("Shart bajarilmadi");
+        }
+    }
+}
