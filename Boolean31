@@ -17,9 +17,9 @@ public class Boolean31 {
 
 
         if (A == B && A+B>C && A+C>B && B+C>A){
-            System.out.println("Berilgan uchburchak teng tomonli");
+            System.out.println("Berilgan uchburchak teng yonli");
         } else {
-            System.out.println("Berilgan uchburchak teng tomonli emas");
+            System.out.println("Berilgan uchburchak teng yonli emas");
         }
     }
 }
