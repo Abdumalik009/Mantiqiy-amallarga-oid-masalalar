@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Boolean21 {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Uch xonali  sonni kiriting: ");
+        int A = scanner.nextInt();
+
+
+        int yuz = A/100;
+        int on =(A/10)%10;
+        int bir =A%10;
+        if (yuz<on && on<bir ){
+            System.out.println("Raqamlar usish tartibida ");
+        }else{
+            System.out.println("Raqamlar usish tartibida emas");
+        }
+    }
+}
