@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Boolean16 {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Sonni kiriting: ");
+        int A = scanner.nextInt();
+
+        System.out.print("Sonni kiriting: ");
+        int B = scanner.nextInt();
+
+
+        if ( A>9 && A<100 && B%2 == 0) {
+            System.out.println(" Berilgan son ikki xonali juft son");
+        } else {
+            System.out.println("Berilgan son ikki xonali juft son emas");
+        }
+    }
+}
