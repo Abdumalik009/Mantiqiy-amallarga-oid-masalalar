@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Boolean33 {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("A Tommoni kiriting: ");
+        int A = scanner.nextInt();
+
+        System.out.print("B Tommoni kiriting: ");
+        int B = scanner.nextInt();
+
+        System.out.print("C Tommoni kiriting: ");
+        int C = scanner.nextInt();
+
+
+        if ( A+B>C && A+C>B && B+C>A){
+            System.out.println("Berilgan tomonlardan uchburchak yasash mumkin");
+        } else {
+            System.out.println("Berilgan tomonlardan uchburchak yasash mumkin emas");
+
+        }
+    }
+}
