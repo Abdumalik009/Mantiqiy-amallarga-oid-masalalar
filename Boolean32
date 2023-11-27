@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Boolean32 {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("A Tommoni kiriting: ");
+        int A = scanner.nextInt();
+
+        System.out.print("B Tommoni kiriting: ");
+        int B = scanner.nextInt();
+
+        System.out.print("C Tommoni kiriting: ");
+        int C = scanner.nextInt();
+
+
+        if (Math.pow(C, 2) == Math.pow(A, 2) + Math.pow(B, 2) ){
+            System.out.println("Berilgan uchburchak to'g'ri burchakli uchburchak");
+        } else {
+            System.out.println("Berilgan uchburchak to'g'ri burchakli uchburchak emas");
+        }
+    }
+}
