@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Boolean35 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Birinchi maydon x1 ni kiriting (1-8 oraliqda): ");
+        int x1 = scanner.nextInt();
+        System.out.print("Birinchi maydon y1 ni kiriting (1-8 oraliqda): ");
+        int y1 = scanner.nextInt();
+
+        System.out.print("Ikkinchi maydon x2 ni kiriting (1-8 oraliqda): ");
+        int x2 = scanner.nextInt();
+        System.out.print("Ikkinchi maydon y2 ni kiriting (1-8 oraliqda): ");
+        int y2 = scanner.nextInt();
+
+        boolean a = (x1 + y1) % 2 == (x2 + y2) % 2;
+
+        if (a) {
+            System.out.println("Berilgan maydonlar bir xil rangda");
+        } else {
+            System.out.println("Berilgan maydonlar bir xil rangda emas");
+        }
+    }
+}
