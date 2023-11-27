@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Boolean20 {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Uch xonali  sonni kiriting: ");
+        int A = scanner.nextInt();
+
+
+        int yuz = A/100;
+        int on =(A/10)%10;
+        int bir =A%10;
+        if (yuz==on || on==bir || yuz==bir){
+            System.out.println("Raqamlar xar xil emas");
+        }else{
+            System.out.println("Raqamlar xar xil");
+        }
+    }
+}
